@@ -5,19 +5,25 @@
     "main": "app.js",
     "scripts": {
         "start": "node index.js",
+        "dev": "nodemon index.js",
         "test": "mocha"
     },
     "author": "Kyle Coberly",
     "license": "ISC",
     "dependencies": {
-        "body-parser": "^1.18.2",
-        "express": "^4.16.2",
-        "morgan": "^1.9.0"
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.4",
+        "dotenv": "^6.0.0",
+        "express": "^4.16.3",
+        "knex": "^0.14.6",
+        "morgan": "^1.9.0",
+        "pg": "^7.4.3"
     },
     "devDependencies": {
         "chai": "^4.1.2",
         "eslint": "^4.19.1",
         "mocha": "^4.1.0",
-        "supertest": "^3.0.0"
+        "nodemon": "^1.17.5",
+        "supertest": "^3.1.0"
     }
 }
